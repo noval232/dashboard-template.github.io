@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Dashboard</title>
+  </head>
+
+  <body>
+    <div class="container mt-4 mb-2 p-0 pb-3 d-flex justify-content-between container-border">
+      <!-- ng-if ="mp-dashboard" -->
+      <h2 class="text-capitalize fw-bold txt-blueprimary">heru pamungkas</h2>
+      <button class="btn btn-dashboard w-25 fw-bold">
+        Day 120 of 224 efective days
+        <i class="fas fa-angle-right" style="transform: translate(30px, 2px); color: white; font-weight: 400"></i>
+      </button>
+    </div>
+    <div class="container mx-auto mt-3 mb-2 p-0 pt-1 pb-0 container-border">
+      <div class="alert alert-pink alert-dismissible fade show" role="alert">
+        <strong>Assign more loads/jobs on the low-productive.</strong>
+        or Rebalance workload between fee-earnes fields below.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+      <div class="alert alert-orange alert-dismissible fade show" role="alert">
+        Remind the discipline of timesheet entry, as it will reflect on the
+        <strong>Individual KPI</strong>
+        You should check in on some of those fields below.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+      <div class="alert alert-pink alert-dismissible fade show" role="alert">
+        <strong>Key Focus:</strong>
+        Improve Revenue, R1, R2 Total, R2 Confirmed/Soon, R2 Difficult, R3 (WIP to bill)
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+    </div>
+    <div class="container mx-auto mt-4 p-0">
+      <div class="accordion" id="accordionAssociate">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="associate-IndividualSummary-heading">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#associateDashboardIndividual-summary"
+              aria-expanded="true"
+              aria-controls="matterOpen-collapse"
+            >
+              <h5 class="text-uppercase fw-bolder txt-blueprimary">your individual summary</h5>
+            </button>
+          </h2>
+          <div id="associateDashboardIndividual-summary" class="accordion-collapse collapse show" aria-labelledby="associate-IndividualSummary-heading">
+            <div class="accordion-body">
+              <div class="container mx-auto mt-3 mb-2 p-0">
+                <div class="row g-4">
+                  <div class="col-6">
+                    <div class="card">
+                      <a href="#" class="linkCard">
+                        <div class="card-body text-center pb-0">
+                          <h2 class="card-title text-uppercase mb-0" style="font-weight: 600">Productivity</h2>
+                          <small class="card-text mb-3 fw-bold" style="font-size: 0.7rem">year to date</small>
+                          <hr class="w-50 mx-auto my-2" />
+                          <h1 class="card-title mx-auto">75%</h1>
+                        </div>
+                        <hr class="w-50 mx-auto mt-2 mb-1" />
+                        <ul class="list-group list-group-flush mx-auto pb-2 px-2" style="width: 60%; border: none">
+                          <li
+                            class="list-group-item w-100 pt-0"
+                            style="display: flex;justify-content: center;border-top: none !important;border-bottom none !important;"
+                          >
+                            <div style="border-right: 1px solid lightgrey; display: block; width: 50%; text-align: center; height: 4rem !important">
+                              <ul class="list-group txt-orange" style="list-style: none">
+                                <li class="w-100">Actual</li>
+                                <li>
+                                  <h3 class="mb-0">93.1<i class="fas fa-arrow-alt-circle-right down-red"></i></h3>
+                                </li>
+                                <li class="txt-black">
+                                  <small style="font-size: 0.7rem">point</small>
+                                </li>
+                              </ul>
+                            </div>
+                            <div style="width: 50%; text-align: center">
+                              <ul class="list-group txt-lightblue" style="list-style: none">
+                                <li>Target</li>
+                                <li>
+                                  <h4 class="mb-0">82.4</h4>
+                                </li>
+                                <li class="txt-black">
+                                  <small style="font-size: 0.7rem">point</small>
+                                </li>
+                              </ul>
+                            </div>
+                          </li>
+                        </ul>
+                        <hr class="w-50 mx-auto mt-2 mb-1" />
+                        <div class="card-body"></div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="card">
+                      <a href="#" class="linkCard">
+                        <div class="card-body text-center pb-0">
+                          <h2 class="card-title text-uppercase mb-0" style="font-weight: 600">KPI</h2>
+                          <small class="card-text mb-3 fw-bold" style="font-size: 0.7rem">year to date</small>
+                          <hr class="w-50 mx-auto my-2" />
+                          <h1 class="card-title mx-auto">75%</h1>
+                        </div>
+                        <hr class="w-50 mx-auto mt-2 mb-1" />
+                        <ul class="list-group list-group-flush mx-auto pb-2 px-2" style="width: 60%; border: none">
+                          <li
+                            class="list-group-item w-100 pt-0"
+                            style="display: flex;justify-content: center;border-top: none !important;border-bottom none !important;"
+                          >
+                            <div style="border-right: 1px solid lightgrey; display: block; width: 50%; text-align: center; height: 4rem !important">
+                              <ul class="list-group txt-orange" style="list-style: none">
+                                <li class="w-100">Actual</li>
+                                <li>
+                                  <h3 class="mb-0">93.1<i class="fas fa-arrow-alt-circle-right down-red"></i></h3>
+                                </li>
+                                <li class="txt-black">
+                                  <small style="font-size: 0.7rem">point</small>
+                                </li>
+                              </ul>
+                            </div>
+                            <div style="width: 50%; text-align: center">
+                              <ul class="list-group txt-lightblue" style="list-style: none">
+                                <li>Target</li>
+                                <li>
+                                  <h4 class="mb-0">82.4</h4>
+                                </li>
+                                <li class="txt-black">
+                                  <small style="font-size: 0.7rem">point</small>
+                                </li>
+                              </ul>
+                            </div>
+                          </li>
+                        </ul>
+                        <hr class="w-50 mx-auto mt-2 mb-1" />
+                        <div class="card-body"></div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="associate-IndividualProductivity-heading">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#associateDashboardIndividual-productivity"
+              aria-expanded="true"
+              aria-controls="matterOpen-collapse"
+            >
+              <h5 class="text-uppercase fw-bolder txt-blueprimary">individual productivity performance</h5>
+            </button>
+          </h2>
+          <div id="associateDashboardIndividual-productivity" class="accordion-collapse collapse" aria-labelledby="associate-IndividualProductivity-heading">
+            <div class="accordion-body">
+              <div class="container mx-auto mt-3 mb-2 p-0 d-flex justify-content-between">
+                <h4 class="headerInColom">BILLABLE</h4>
+                <div class="ChartProductivity-Billable"></div>
+                <h4 class="headerInColom">Non-Billable bre</h4>
+                <div class="ChartProductivity-Nonbillable"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="associate-individualAchievement-heading">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#associate-individualAchievement"
+              aria-expanded="false"
+              aria-controls="financeOpen-collapseR3"
+            >
+              <h5 class="text-uppercase fw-bolder txt-blueprimary">
+                individual
+                <span class="fw-normal">achievements</span>
+              </h5>
+            </button>
+          </h2>
+          <div id="associate-individualAchievement" class="accordion-collapse collapse" aria-labelledby="associate-individualAchievement-heading">
+            <div class="accordion-body px-0 py-2 mb-4">
+              <div style="border-bottom: none; position: relative" class="container mx-auto mt-4 mb-0 p-0 pt-0 pb-0 container-border d-flex">
+                <h4 style="position: absolute; left: 1rem; font-size: 22px" class="text-uppercase text-warning">matter handled/revenue</h4>
+                <div class="container mx-auto mt-3 mb-2 p-0 pt-4 pb-4 d-flex justify-content-evenly">
+                  <div class="d-flex align-items-end horizontalLine">
+                    <div class="ps-2 pe-3">
+                      <h4 class="fw-bolder text-center fs-1 mb-0">5%</h4>
+                      <div style="font-size: 0.8rem" class="text-uppercase text-secondary fw-bold">kpi weight</div>
+                    </div>
+                    <div class="px-4">
+                      <h4 class="fw-bolder text-center fs-1 mb-0">3.2</h4>
+                      <div style="font-size: 0.8rem" class="text-uppercase text-secondary fw-bold">kpi score</div>
+                    </div>
+                  </div>
+                  <div class="ChartAssociate-GroupAchievementQuarter horizontalLine"></div>
+                  <div class="ChartAssociate-GroupAchievementPermonth"></div>
+                </div>
+              </div>
+              <div style="border-bottom: none; position: relative" class="container mx-auto mt-4 mb-0 p-0 pt-0 pb-0 container-border d-flex">
+                <h4 style="position: absolute; left: 1rem; font-size: 22px" class="text-uppercase text-warning">collected revenue ratio</h4>
+                <div class="container mx-auto mt-3 mb-2 p-0 pt-4 pb-4 d-flex justify-content-evenly">
+                  <div class="d-flex align-items-end horizontalLine">
+                    <div class="ps-2 pe-3">
+                      <h4 class="fw-bolder text-center fs-1 mb-0">5%</h4>
+                      <div style="font-size: 0.8rem" class="text-uppercase text-secondary fw-bold">kpi weight</div>
+                    </div>
+                    <div class="px-4">
+                      <h4 class="fw-bolder text-center fs-1 mb-0">3.2</h4>
+                      <div style="font-size: 0.8rem" class="text-uppercase text-secondary fw-bold">kpi score</div>
+                    </div>
+                  </div>
+                  <div class="ChartAssociate-GroupAchievementQuarter horizontalLine"></div>
+                  <div class="ChartAssociate-GroupAchievementPermonth"></div>
+                </div>
+              </div>
+              <div style="border-bottom: none; position: relative" class="container mx-auto mt-4 mb-0 p-0 pt-0 pb-0 container-border d-flex">
+                <h4 style="position: absolute; left: 1rem; font-size: 22px" class="text-uppercase text-warning">billable revenue ratio</h4>
+                <div class="container mx-auto mt-3 mb-2 p-0 pt-4 pb-4 d-flex justify-content-evenly">
+                  <div class="d-flex align-items-end horizontalLine">
+                    <div class="ps-2 pe-3">
+                      <h4 class="fw-bolder text-center fs-1 mb-0">5%</h4>
+                      <div style="font-size: 0.8rem" class="text-uppercase text-secondary fw-bold">kpi weight</div>
+                    </div>
+                    <div class="px-4">
+                      <h4 class="fw-bolder text-center fs-1 mb-0">3.2</h4>
+                      <div style="font-size: 0.8rem" class="text-uppercase text-secondary fw-bold">kpi score</div>
+                    </div>
+                  </div>
+                  <div class="ChartAssociate-GroupAchievementQuarter horizontalLine"></div>
+                  <div class="ChartAssociate-GroupAchievementPermonth"></div>
+                </div>
+              </div>
+              <div style="border-bottom: none; position: relative" class="container mx-auto mt-4 mb-0 p-0 pt-0 pb-0 container-border d-flex">
+                <h4 style="position: absolute; left: 1rem; font-size: 22px" class="text-uppercase text-warning">non-billable revenue ratio</h4>
+                <div class="container mx-auto mt-3 mb-2 p-0 pt-4 pb-4 d-flex justify-content-evenly">
+                  <div class="d-flex align-items-end horizontalLine">
+                    <div class="ps-2 pe-3">
+                      <h4 class="fw-bolder text-center fs-1 mb-0">5%</h4>
+                      <div style="font-size: 0.8rem" class="text-uppercase text-secondary fw-bold">kpi weight</div>
+                    </div>
+                    <div class="px-4">
+                      <h4 class="fw-bolder text-center fs-1 mb-0">3.2</h4>
+                      <div style="font-size: 0.8rem" class="text-uppercase text-secondary fw-bold">kpi score</div>
+                    </div>
+                  </div>
+                  <div class="ChartAssociate-GroupAchievementQuarter horizontalLine"></div>
+                  <div class="ChartAssociate-GroupAchievementPermonth"></div>
+                </div>
+              </div>
+              <div style="border-bottom: none; position: relative" class="container mx-auto mt-4 mb-0 p-0 pt-0 pb-0 container-border d-flex">
+                <h4 style="position: absolute; left: 1rem; font-size: 22px" class="text-uppercase text-warning">number of matter leads</h4>
+                <div class="container mx-auto mt-3 mb-2 p-0 pt-4 pb-4 d-flex justify-content-evenly">
+                  <div class="d-flex align-items-end horizontalLine">
+                    <div class="ps-2 pe-3">
+                      <h4 class="fw-bolder text-center fs-1 mb-0">5%</h4>
+                      <div style="font-size: 0.8rem" class="text-uppercase text-secondary fw-bold">kpi weight</div>
+                    </div>
+                    <div class="px-4">
+                      <h4 class="fw-bolder text-center fs-1 mb-0">3.2</h4>
+                      <div style="font-size: 0.8rem" class="text-uppercase text-secondary fw-bold">kpi score</div>
+                    </div>
+                  </div>
+                  <div class="ChartAssociate-GroupAchievementQuarter horizontalLine"></div>
+                  <div class="ChartAssociate-GroupAchievementPermonth"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- testing -->
+
+    <script src="assets/bootstrap.bundle.min.js "></script>
+    <script src="https://d3js.org/d3.v5.min.js "></script>
+    <!-- <script src="script.js "></script> -->
+    <script src="productivity.js "></script>
+    <script src="matter.js"></script>
+    <script src="finance.js"></script>
+    <script src="spDashboard.js"></script>
+    <script src="associate.js"></script>
+  </body>
+</html>

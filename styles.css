@@ -1,0 +1,379 @@
+.accordion-button:not(.collapsed) {
+  background-color: transparent;
+}
+
+.btn-dashboard {
+  background-color: #a2d097;
+  color: white;
+  display: block;
+}
+
+.bg-lightblue {
+  background-color: #00b2b2;
+}
+
+.bg-grey {
+  background-color: #f3f3f3;
+}
+
+.btn-dashboard:hover {
+  background-color: #8fdb7b;
+  color: #fff;
+}
+
+.txt-orange {
+  color: #ff7a00;
+}
+
+.txt-blueprimary {
+  color: #10277c;
+}
+
+.txt-lightblue {
+  color: #00b2b2;
+}
+
+.txt-black {
+  color: #000;
+}
+
+.alert-pink {
+  background-color: #ffe7e7;
+}
+
+.alert-orange {
+  background-color: #ffedd1;
+}
+
+.container-border {
+  border-bottom: 2px solid #c4c4c4;
+}
+
+.greenBar {
+  background: #a2d097;
+}
+
+.card h1 {
+  font-weight: 600;
+}
+
+.down-red {
+  transform: scale(0.5) translate(-17px, -10px) rotate(45deg);
+  color: #fc9191;
+}
+
+.up-green {
+  transform: scale(0.5) translate(-17px, -10px) rotate(-45deg);
+  color: #a2d097;
+}
+
+/* table dashboard summary*/
+
+.table-summary {
+  position: relative;
+}
+
+.table-summary .down-red {
+  transform: scale(0.8) rotate(45deg) translate(-6px, -8px);
+  transform-origin: 50% 50%;
+}
+
+.table-summary .up-green {
+  transform: scale(0.8) rotate(-45deg) translate(4px, -8px);
+  transform-origin: 50% 50%;
+}
+
+.content-wrapper:nth-child(odd) {
+  background-color: #fafafa;
+}
+
+.header-inner,
+.header-inner--productivity,
+.header-inner--matter,
+.header-inner--finance,
+.header-inner--kpi {
+  display: grid;
+  grid-gap: 0;
+  grid-template-columns: 16rem repeat(5, 1fr);
+  grid-template-rows: 3.5rem;
+  grid-auto-flow: row;
+  align-items: strech;
+}
+
+.header-inner--productivity {
+  grid-template-columns: 16rem repeat(6, 1fr);
+}
+
+.header-inner--matter {
+  grid-template-columns: 16rem repeat(4, 1fr);
+}
+
+.header-inner--finance {
+  /* grid-template-columns: 1fr 2fr repeat( 3, 1fr) 1fr; */
+  grid-template-columns: 1.5fr 3fr 1fr 3fr 1fr 1fr;
+  margin: 1rem 0;
+}
+
+.header-inner--kpi {
+  grid-template-columns: 1fr 2fr 2fr;
+  margin: 1rem 0;
+}
+
+.header-inner--finance:nth-child(odd) {
+  background: #f7f7f7;
+}
+
+.header-content {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-align: center;
+  align-self: center;
+  padding: 8px 20px;
+}
+
+.content-wrapper,
+.content-wrapper--productivity,
+.content-wrapper--matter,
+.content-wrapper--kpi {
+  display: grid;
+  grid-gap: 0;
+  grid-template-columns: 16rem repeat(5, 1fr);
+  grid-template-rows: 3.5rem;
+  grid-auto-flow: row;
+  padding: 10px;
+  align-items: center;
+}
+
+.content-wrapper--productivity {
+  grid-template-columns: 16rem repeat(6, 1fr);
+}
+
+.content-wrapper--matter {
+  grid-template-columns: 16rem repeat(4, 1fr);
+}
+
+.content-wrapper--kpi {
+  grid-template-columns: 1fr 2fr 2fr;
+  margin: 1rem 0;
+}
+
+.content-wrapper--kpi .body-content:first-child {
+  text-align: left !important;
+}
+
+.body-content {
+  padding: 0.5rem 1.2rem;
+  text-align: center;
+}
+
+.body-content:first-child {
+  font-size: 1.1rem;
+}
+
+/* .table-summary__header {
+  display: grid;
+  align-items: stretch;
+  grid-column: 1/-1;
+  grid-row: 1/2;
+} */
+
+.high-progress {
+  background-color: #6b9e59 !important;
+}
+
+.good-progress {
+  background-color: #a2d097 !important;
+}
+
+.low-progress {
+  background-color: #f6b60e !important;
+}
+
+.very-low--progress {
+  background-color: #fb6f55 !important;
+}
+
+.grey-progress {
+  background-color: #c0c0c0 !important;
+}
+
+/* overwrite bootstap color */
+
+/* .progress-bar {
+  background-color: transparent  !important;
+} */
+
+.bungkus {
+  height: 100%;
+  background: lightblue;
+  padding: 10px 0;
+  overflow: hidden;
+}
+
+.bungkus:nth-child(odd) {
+  background: lightgrey;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  width: 100px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 10px;
+  background: #469;
+}
+
+.aktip {
+  background: #466;
+}
+
+/* .collapsible:hover {
+  background-color: darkblue;
+} */
+
+.isi {
+  padding: 0 10px;
+  /* max-height: 0; */
+  height: 0;
+  /* transform: translateX(-1%); */
+  visibility: hidden;
+  overflow: hidden;
+  transition: all 0.3s;
+  background-color: #fff;
+  z-index: 2;
+  /* height: 200px; */
+  display: grid;
+  grid-column: 1/-1;
+  /* position: absolute;
+  left: 0; */
+}
+
+.datanya {
+  display: inline-block;
+  width: 85%;
+}
+
+.canvas-wrap {
+  display: flex;
+  width: 100%;
+}
+
+.valueof-progress {
+  font-size: 0.8rem;
+}
+
+.headerInColom {
+  transform: rotate(-180deg) scale(0.8);
+  border-top: 1px solid lighgrey;
+  /* transform-origin: 50% 50%; */
+  border-right: 1px solid lightgrey;
+  align-self: center;
+  text-transform: uppercase;
+  color: #a0a0a0;
+  text-transform: uppercase;
+  writing-mode: vertical-rl;
+  margin: 0;
+}
+
+.blueaja {
+  color: blue;
+  font-weight: 600;
+}
+
+.xAxisText {
+  max-width: 6px;
+  color: blue;
+}
+
+.ow {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  color: red;
+}
+
+.ChartFinance-revenueYtd,
+.ChartFinance-rTwoYtd,
+.ChartFinance-R3StatusNonPerform,
+.horizontalLine,
+.ChartFinance-R3YtdWip {
+  position: relative;
+}
+
+.ChartFinance-revenueYtd::after,
+.ChartFinance-rTwoYtd::after,
+.ChartFinance-R3StatusNonPerform::after,
+.horizontalLine::after,
+.ChartFinance-R3YtdWip::after {
+  content: '';
+  position: absolute;
+  top: 1rem;
+  height: 7rem;
+  right: -10px;
+  width: 1px;
+  background-color: lightgrey;
+}
+
+.ChartFinance-R3YtdWip::after {
+  right: -15px;
+  width: 0.7px;
+}
+
+.ChartFinance-rTwoYtd::after {
+  right: -27px;
+}
+
+.horizontalLine::after {
+  right: -10px;
+  top: 3rem;
+}
+
+#a-pgPerformance,
+#b-pgPerformance,
+#c-pgPerformance,
+#d-pgPerformance {
+  color: #a2d097;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#a-pgPerformance:hover,
+#b-pgPerformance:hover,
+#c-pgPerformance:hover,
+#d-pgPerformance:hover {
+  color: #61cc46;
+}
+
+#a-pgPerformance i,
+#b-pgPerformance i,
+#c-pgPerformance i,
+#d-pgPerformance i {
+  /* color: #8fdb7b; */
+  margin-left: 5px;
+}
+
+/* #b-pgPerformance:active i {
+    transform: rotate(45deg);
+} */
+
+.kpi-image__rounded {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 0 -15px;
+  margin-bottom: 0 !important;
+}
+
+a.linkCard:link,
+a.linkCard:visited {
+  text-decoration: none;
+  color: black;
+}

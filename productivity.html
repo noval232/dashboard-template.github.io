@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- ng-if="productivity" -->
+
+    <!-- closed accordion -->
+
+    <div class="
+        container
+        mt-4
+        mb-2
+        p-0
+        pb-3
+        d-flex
+        justify-content-between
+        container-border
+      ">
+        <!-- ng-if ="mp-dashboard" -->
+        <h2 class="text-uppercase fw-bold txt-blueprimary">
+            firm summary - productivity
+        </h2>
+        <!-- ng-if="ep-dashboard" -->
+        <!-- <h2 class="text-uppercase fw-bold txt-blueprimary">pg banking & finance summary</h2> -->
+        <button class="btn btn-dashboard w-25 fw-bold">
+        Day 120 of 224 efective days
+        <i class="fas fa-angle-right"
+        style="transform: translate(30px,2px);
+        color: white;
+        font-weight: 400;"
+      "></i>
+      </button>
+    </div>
+    <div class="container">
+        <div class="accordion" id="accordionPanelsProductivity">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="productivityPerformance-heading">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#productivityOpen-collapsePerformance" aria-expanded="true" aria-controls="productivityOpen-collapsePerformance">
+              <h4 class="text-uppercase fw-normal txt-blueprimary">
+                <span style="font-weight: 600"
+                  ><strong>firm</strong> productivity performance</span
+                >
+              </h4>
+            </button>
+                </h2>
+                <div id="productivityOpen-collapsePerformance" class="accordion-collapse collapse show" aria-labelledby="productivityPerformance-heading"></div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="productivityBillable-heading">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#productivityOpen-collapseBillable" aria-expanded="false" aria-controls="productivityOpen-collapseBillable">
+              <h4 class="text-uppercase fw-normal txt-blueprimary">
+                <span class="txt-orange" style="font-weight: 600"
+                  >billable</span
+                >
+              </h4>
+            </button>
+                </h2>
+                <div id="productivityOpen-collapseBillable" class="accordion-collapse collapse show" aria-labelledby="productivityBillable-heading">
+                    <div class="accordion-body">
+                        <div class="
+                  container
+                  mx-auto
+                  mt-3
+                  mb-2
+                  p-0
+                  pt-1
+                  pb-0
+                  container-border
+                ">
+                            <div class="alert alert-pink alert-dismissible fade show" role="alert">
+                                <strong>Yearly:</strong> YTD 91% is higher vs 2020;
+                                <strong>Quarterly: </strong> YTD 91% is higher vs 2020;
+                                <strong>Monthly</strong> July 91% is higher than june
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            </div>
+                            <div class="alert alert-orange alert-dismissible fade show" role="alert">
+                                Remind the discipline of timesheet entry, as it will reflect on the
+                                <strong>Individual KPI</strong> You should check in on some of those fields below.
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            </div>
+                        </div>
+                        <div class="container mx-auto mt-3 mb-2 p-0 pt-4 pb-4 container-border d-flex justify-content-between">
+                            <div class="ChartProductivity-Ytd horizontalLine"></div>
+                            <div class="ChartProductivity-Perquarter horizontalLine"></div>
+                            <div class="ChartProductivity-Perbulan"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="productivityNonBillable-heading">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#productivityOpen-collapseNonBillable" aria-expanded="false" aria-controls="productivityOpen-collapseNonBillable">
+              <h4 class="text-uppercase fw-normal txt-blueprimary">
+                <span class="txt-orange" style="font-weight: 600"
+                  >non-billable</span
+                >
+              </h4>
+            </button>
+                </h2>
+                <div id="productivityOpen-collapseNonBillable" class="accordion-collapse collapse" aria-labelledby="productivityNonBillable-heading">
+                    <div class="accordion-body">
+                        <div class="
+                  container
+                  mx-auto
+                  mt-3
+                  mb-2
+                  p-0
+                  pt-1
+                  pb-0
+                  container-border
+                ">
+                            <div class="alert alert-orange alert-dismissible fade show" role="alert">
+                                Remind the discipline of timesheet entry, as it will reflect on the
+                                <strong>Individual KPI</strong> You should check in on some of those fields below.
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            </div>
+                        </div>
+                        <div class="container mx-auto mt-3 mb-2 p-0 pt-4 pb-4 container-border d-flex justify-content-between">
+                          <div class="ChartProductivity-Ytd horizontalLine"></div>
+                          <div class="ChartProductivity-Perquarter horizontalLine"></div>
+                          <div class="ChartProductivity-Perbulan"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="productivityUtilisation-heading">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#productivityOpen-collapseUtilisation" aria-expanded="false" aria-controls="productivityOpen-collapseUtilisation">
+              <h4 class="text-uppercase fw-normal txt-blueprimary">
+                <span class="txt-orange" style="font-weight: 600"
+                  >utilisation (B + nB)</span
+                >
+              </h4>
+            </button>
+                </h2>
+                <div id="productivityOpen-collapseUtilisation" class="accordion-collapse collapse" aria-labelledby="productivityUtilisation-heading" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="
+                  container
+                  mx-auto
+                  mt-3
+                  mb-2
+                  p-0
+                  pt-1
+                  pb-0
+                  container-border
+                ">
+                            <div class="alert alert-pink alert-dismissible fade show" role="alert">
+                                <strong>Yearly:</strong> YTD 91% is higher vs 2020;
+                                <strong>Quarterly: </strong> YTD 91% is higher vs 2020;
+                                <strong>Monthly</strong> July 91% is higher than june
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            </div>
+                        </div>
+                        <div class="container mx-auto mt-3 mb-2 p-0 pt-4 pb-4 container-border d-flex justify-content-between">
+                          <div class="ChartProductivity-Ytd horizontalLine"></div>
+                          <div class="ChartProductivity-Perquarter horizontalLine"></div>
+                          <div class="ChartProductivity-Perbulan"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="productivityIndividual-heading">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#productivityOpen-collapseIndividual" aria-expanded="false" aria-controls="productivityOpen-collapseIndividual">
+              <h4 class="text-uppercase fw-normal txt-blueprimary">
+                <span style="font-weight: 600"
+                  ><strong>individual</strong> productivity performance</span
+                >
+              </h4>
+            </button>
+                </h2>
+                <div id="productivityOpen-collapseIndividual" class="accordion-collapse collapse" aria-labelledby="productivityIndividual-heading" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="container mt-3 p-0 mx-auto">
+                            <form class="row g-3 mb-2" novalidate>
+                                <div class="col-md-3">
+                                    <h5 class="ps-2">FILTER BY</h5>
+                                </div>
+                                <div class="col-md-3">
+                                    <input type="text" class="form-control" placeholder="Search" />
+                                </div>
+                                <div class="col-md-2">
+                                    <select class="form-select">
+                      <option selected disabled value="">All Level</option>
+                      <option>...</option>
+                    </select>
+                                </div>
+                                <div class="col-md-2">
+                                    <select class="form-select">
+                      <option selected disabled value="">All PG</option>
+                      <option>...</option>
+                    </select>
+                                </div>
+                                <div class="col-md-2">
+                                    <select class="form-select">
+                      <option selected disabled value="">All Indicator</option>
+                      <option>...</option>
+                    </select>
+                                </div>
+                            </form>
+                            <div class="table-summary">
+                                <div class="header-inner--productivity bg-lightblue text-light">
+                                    <div class="header-content">employee name</div>
+                                    <div class="header-content">position</div>
+                                    <div class="header-content">pg</div>
+                                    <div class="header-content">billable</div>
+                                    <div class="header-content">non-billable</div>
+                                    <div class="header-content">indicator</div>
+                                    <div class="header-content">action</div>
+                                </div>
+                                <!-- looping di -> content-wrapper -->
+                                <div class="content-wrapper--productivity">
+                                    <div class="body-content">
+                                        <span class="text-uppercase fw-bold">lorem ipsum</span>
+                                    </div>
+                                    <div class="body-content">
+                                        <span class="text-uppercase fw-bold">equity partner</span>
+                                    </div>
+                                    <div class="body-content">
+                                        <span class="text-uppercase fw-bold">bfp</span>
+                                    </div>
+                                    <div class="body-content">
+                                        <i class="fas fa-arrow-alt-circle-right down-red"></i>
+                                        <span class="text-uppercase fw-bold">70%</span>
+                                    </div>
+                                    <div class="body-content">
+                                        <i class="fas fa-arrow-alt-circle-right up-green"></i>
+                                        <span class="text-uppercase fw-bold">69%</span>
+                                    </div>
+                                    <div class="body-content">
+                                        <div class="progress rounded-pill mx-auto" style="height: 2.5rem">
+                                            <div class="progress-bar very-low--progress w-100">
+                                                <span class="text-light text-uppercase fw-bold">below</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="body-content">
+                      <button type="button" class="collapsible rounded-pill">
+                        Detail
+                      </button>
+                    </div>
+                    <div class="isi">
+                      <div
+                        class="
+                          container
+                          mx-auto
+                          mt-3
+                          mb-2
+                          p-0
+                          pt-4
+                          pb-4
+                          container-border
+                          d-flex
+                          justify-content-between
+                        "
+                      >
+                        <h4 class="headerInColom">BILLABLE</h4>
+                        <div class="ChartProductivity-billable"></div>
+                        <h4 class="headerInColom">Non-Billable</h4>
+                        <div class="ChartProductivity-nonbillable"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="content-wrapper--productivity">
+                    <div class="body-content">
+                      <span class="text-uppercase fw-bold">lorem ipsum</span>
+                                            </div>
+                                            <div class="body-content">
+                                                <span class="text-uppercase fw-bold">partner</span>
+                                            </div>
+                                            <div class="body-content">
+                                                <span class="text-uppercase fw-bold">bfp</span>
+                                            </div>
+                                            <div class="body-content">
+                                                <i class="fas fa-arrow-alt-circle-right down-red"></i>
+                                                <span class="text-uppercase fw-bold">67%</span>
+                                            </div>
+                                            <div class="body-content">
+                                                <i class="fas fa-arrow-alt-circle-right up-green"></i>
+                                                <span class="text-uppercase fw-bold">23%</span>
+                                            </div>
+                                            <div class="body-content">
+                                                <div class="progress rounded-pill mx-auto" style="height: 2.5rem">
+                                                    <div class="progress-bar low-progress w-100">
+                                                        <span class="text-light text-uppercase fw-bold">low</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="body-content">
+                      <button type="button" class="collapsible rounded-pill">
+                        Detail
+                      </button>
+                    </div>
+                    <div class="isi">
+                      <div
+                        class="
+                          container
+                          mx-auto
+                          mt-3
+                          mb-2
+                          p-0
+                          pt-4
+                          pb-4
+                          container-border
+                          d-flex
+                          justify-content-between
+                        "
+                      >
+                        <h4 class="headerInColom">BILLABLE</h4>
+                        <div class="ChartProductivity-billable"></div>
+                        <h4 class="headerInColom">Non-Billable</h4>
+                        <div class="ChartProductivity-nonbillable"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="content-wrapper--productivity">
+                    <div class="body-content">
+                      <span class="text-uppercase fw-bold">lorem ipsum</span>
+                                                    </div>
+                                                    <div class="body-content">
+                                                        <span class="text-uppercase fw-bold">partner</span>
+                                                    </div>
+                                                    <div class="body-content">
+                                                        <span class="text-uppercase fw-bold">bfp</span>
+                                                    </div>
+                                                    <div class="body-content">
+                                                        <i class="fas fa-arrow-alt-circle-right down-red"></i>
+                                                        <span class="text-uppercase fw-bold">127%</span>
+                                                    </div>
+                                                    <div class="body-content">
+                                                        <i class="fas fa-arrow-alt-circle-right up-green"></i>
+                                                        <span class="text-uppercase fw-bold">6%</span>
+                                                    </div>
+                                                    <div class="body-content">
+                                                        <div class="progress rounded-pill mx-auto" style="height: 2.5rem">
+                                                            <div class="progress-bar high-progress w-100">
+                                                                <span class="text-light text-uppercase fw-bold">top</span >
+                          </div>
+                      </div>
+                    </div>
+                    <div class="body-content">
+                      <button type="button" class="collapsible rounded-pill">
+                        Detail
+                      </button>
+                    </div>
+                    <div class="isi">
+                      <div
+                        class="
+                          container
+                          mx-auto
+                          mt-3
+                          mb-2
+                          p-0
+                          pt-4
+                          pb-4
+                          container-border
+                          d-flex
+                          justify-content-between
+                        "
+                      >
+                        <h4 class="headerInColom">BILLABLE</h4>
+                        <div class="ChartProductivity-billable"></div>
+                        <h4 class="headerInColom">Non-Billable</h4>
+                        <div class="ChartProductivity-nonbillable"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="content-wrapper--productivity">
+                    <div class="body-content">
+                      <span class="text-uppercase fw-bold">lorem ipsum</span>
+                                                            </div>
+                                                            <div class="body-content">
+                                                                <span class="text-uppercase fw-bold">senior</span>
+                                                            </div>
+                                                            <div class="body-content">
+                                                                <span class="text-uppercase fw-bold">bfp</span>
+                                                            </div>
+                                                            <div class="body-content">
+                                                                <i class="fas fa-arrow-alt-circle-right down-red"></i
+                      ><span class="text-uppercase fw-bold">94%</span>
+                    </div>
+                    <div class="body-content">
+                      <i class="fas fa-arrow-alt-circle-right up-green"></i
+                      ><span class="text-uppercase fw-bold">3%</span>
+                    </div>
+                    <div class="body-content">
+                      <div
+                        class="progress rounded-pill mx-auto"
+                        style="height: 2.5rem"
+                      >
+                        <div class="progress-bar good-progress w-100">
+                          <span class="text-light text-uppercase fw-bold"
+                            >above</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="body-content">
+                      <button type="button" class="collapsible rounded-pill">
+                        Detail
+                      </button>
+                    </div>
+                    <div class="isi">
+                      <div
+                        class="
+                          container
+                          mx-auto
+                          mt-3
+                          mb-2
+                          p-0
+                          pt-4
+                          pb-4
+                          container-border
+                          d-flex
+                          justify-content-between
+                        "
+                      >
+                        <h4 class="headerInColom">BILLABLE</h4>
+                        <div class="ChartProductivity-billable"></div>
+                        <h4 class="headerInColom">Non-Billable</h4>
+                        <div class="ChartProductivity-nonbillable"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="content-wrapper--productivity">
+                    <div class="body-content">
+                      <span class="text-uppercase fw-bold">lorem ipsum</span>
+                    </div>
+                    <div class="body-content">
+                      <span class="text-uppercase fw-bold">partner</span>
+                    </div>
+                    <div class="body-content">
+                      <span class="text-uppercase fw-bold">bfp</span>
+                    </div>
+                    <div class="body-content">
+                      <i class="fas fa-arrow-alt-circle-right down-red"></i
+                      ><span class="text-uppercase fw-bold">127%</span>
+                    </div>
+                    <div class="body-content">
+                      <i class="fas fa-arrow-alt-circle-right up-green"></i
+                      ><span class="text-uppercase fw-bold">6%</span>
+                    </div>
+                    <div class="body-content">
+                      <div
+                        class="progress rounded-pill mx-auto"
+                        style="height: 2.5rem"
+                      >
+                        <div class="progress-bar high-progress w-100">
+                          <span class="text-light text-uppercase fw-bold"
+                            >top</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="body-content">
+                      <button type="button" class="collapsible rounded-pill">
+                        Detail
+                      </button>
+                    </div>
+                    <div class="isi">
+                      <div
+                        class="
+                          container
+                          mx-auto
+                          mt-3
+                          mb-2
+                          p-0
+                          pt-4
+                          pb-4
+                          container-border
+                          d-flex
+                          justify-content-between
+                        "
+                      >
+                        <h4 class="headerInColom">BILLABLE</h4>
+                        <div class="ChartProductivity-billable"></div>
+                        <h4 class="headerInColom">Non-Billable</h4>
+                        <div class="ChartProductivity-nonbillable"></div>
+                      </div>
+                    </div>
+                  </div>
+                            </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="assets/bootstrap.bundle.min.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="script.js"></script>
+    <script src="productivity.js"></script>
+  </body>
+</html>

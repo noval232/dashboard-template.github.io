@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="assets/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- ng-if="productivity" -->
+
+    <!-- closed accordion -->
+
+    <div class="
+        container
+        mt-4
+        mb-2
+        p-0
+        pb-3
+        d-flex
+        justify-content-between
+        container-border
+      ">
+        <!-- ng-if ="mp-dashboard" -->
+        <h2 class="text-uppercase fw-bold txt-blueprimary">
+            firm summary - matter
+        </h2>
+        <!-- ng-if="ep-dashboard" -->
+        <!-- <h2 class="text-uppercase fw-bold txt-blueprimary">pg banking & finance summary</h2> -->
+        <button class="btn btn-dashboard w-25 fw-bold">
+            Day 120 of 224 efective days
+            <i class="fas fa-angle-right" style="transform: translate(30px,2px);
+        color: white;
+        font-weight: 400;" "></i>
+      </button>
+    </div>
+    <div class=" container">
+        <div class="accordion" id="accordionPanelsMatter">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="matter-heading">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#matterOpen-collapse" aria-expanded="true" aria-controls="matterOpen-collapse">
+                                <h4
+                                    class="text-uppercase fw-normal txt-blueprimary">
+                                    <span
+                                        style="font-weight: 600">FIRM</span>
+                                    MATTER OPENED
+                                </h4>
+                            </button>
+                </h2>
+                <div id="matterOpen-collapse" class="accordion-collapse collapse show" aria-labelledby="matter-heading">
+                    <div class="accordion-body">
+                        <div class="container mx-auto mt-3 mb-2 p-0 pt-1 pb-0 container-border">
+                            <div class="alert alert-pink alert-dismissible fade show" role="alert">
+                                <strong>Assign more load/jobs on the low-productivity.</strong> or Rebalance workload between fee-earners
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            </div>
+                            <div class="alert alert-orange alert-dismissible fade show" role="alert">
+                                Remind the discipline of timesheet entry, as it will reflect on the
+                                <strong>Individual KPI</strong>
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            </div>
+                        </div>
+                        <div style="border-bottom: none;" class=" container mx-auto mt-3 mb-2 p-0 pt-4 pb-4 container-border d-flex justify-content-between">
+                            <div class="ChartMatter-ytd">
+                            </div>
+                            <div class="ChartMatter-q1">
+                            </div>
+                            <div class="ChartMatter-q2">
+                            </div>
+                            <div class="ChartMatter-q3">
+                            </div>
+                            <div class="ChartMatter-q4">
+                            </div>
+                        </div>
+                        <div class="container mx-auto mt-3 mb-2 p-0 pt-4 pb-4 container-border d-flex justify-content-center">
+                            <div class="ChartMatter-jan"></div>
+                            <div class="ChartMatter-feb"></div>
+                            <div class="ChartMatter-mar"></div>
+                            <div class="ChartMatter-apr"></div>
+                            <div class="ChartMatter-may"></div>
+                            <div class="ChartMatter-jun"></div>
+                            <div class="ChartMatter-jul"></div>
+                            <div class="ChartMatter-aug"></div>
+                            <div class="ChartMatter-sep"></div>
+                            <div class="ChartMatter-oct"></div>
+                            <div class="ChartMatter-nov"></div>
+                            <div class="ChartMatter-dec"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="matterFirm-heading">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#matterOpen-collapseFirm" aria-expanded="true" aria-controls="matterOpen-collapseFirm">
+                                <h4
+                                    class="text-uppercase fw-normal txt-blueprimary">
+                                    <span style="font-weight: 600">FIRM</span> MATTER OPENED
+                                </h4>
+                            </button>
+                </h2>
+                <div id="matterOpen-collapseFirm" class="accordion-collapse collapse" aria-labelledby="matterFirm-heading">
+                    <div class="accordion-body">
+                        <div class="container mx-auto mt-3 mb-2 p-0 pt-1 pb-0 container-border">
+                            <div class="alert alert-pink alert-dismissible fade show" role="alert">
+                                <strong>Key Focus :</strong> Improve Revenue, R1, R2 Total, R2 Confirmed/Soon, R2 Difficult, R3 (WIP to BILL)
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            </div>
+                        </div>
+                        <div class="container mx-auto mt-3 mb-2 p-0 pt-4 pb-4 container-border d-flex justify-content-between">
+                            <div class="ChartProductivity-Ytd horizontalLine"></div>
+                            <div class="ChartProductivity-Perquarter horizontalLine"></div>
+                            <div class="ChartProductivity-Perbulan"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="matterPartner-heading">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#matterOpen-collapsePartner" aria-expanded="false" aria-controls="matterOpen-collapsePartner">
+                                <h4
+                                    class="text-uppercase fw-normal txt-blueprimary">
+                                    <span
+                                        style="font-weight: 600">PARTNER</span>
+                                    MATTER OPENED
+                                </h4>
+                            </button>
+                </h2>
+                <div id="matterOpen-collapsePartner" class="accordion-collapse collapse" aria-labelledby="matterPartner-heading">
+                    <div class="accordion-body">
+                        <div class="container mt-3 p-0 mx-auto">
+                            <div class="table-summary">
+                                <div class="header-inner--matter bg-grey">
+                                    <div class="header-content">
+                                        employee name
+                                    </div>
+                                    <div class="header-content">
+                                        matters
+                                    </div>
+                                    <div class="header-content">
+                                        composition 2021
+                                    </div>
+                                    <div class="header-content">
+                                        growth 19-21
+                                    </div>
+                                    <div class="header-content">
+                                        action
+                                    </div>
+                                </div>
+                                <!-- looping di -> content-wrapper -->
+                                <div class="content-wrapper--matter">
+                                    <div class="body-content">
+                                        <span class="text-uppercase fw-bold">Partner 1</span>
+                                    </div>
+                                    <div style="padding: 0;" class="body-content">
+                                        <div class="d-flex align-items-center">
+                                            <div style="font-size: 12px; font-weight: 700;margin-right: 6px;" class="text-uppercase txt-blueprimary">YTD</div>
+                                            <div style="background-color: transparent;border-radius: 0;height: 0.9rem;" class="progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="75">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">586</div>
+                                                <i style="transform:translate(1px) rotate(45deg) scale(.9);" class="fas fa-arrow-alt-circle-right down-red"></i>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <span style="font-size: 12px; font-weight: 400" class="text-uppercase">2020</span>
+                                            <div style="background-color: transparent;border-radius: 0;height: 0.9rem;" class="ms-1 progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 100%; background-color: grey" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">650</div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <span style="font-size: 12px; font-weight: 400" class="text-uppercase">2019</span>
+                                            <div style="background-color: transparent;border-radius: 0;height: 0.9rem;" class="ms-1 progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 60%; background-color: lightgrey" aria-valuenow="60" aria-valuemin="0" aria-valuemax="60">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">468</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="body-content">
+                                        <span class="text-uppercase fw-bold">76%</span>
+                                    </div>
+                                    <div class="body-content">
+                                        <i style="transform:translate(1px,-4px) rotate(-45deg) scale(.8);" class="fas fa-arrow-alt-circle-right up-green"></i>
+                                        <span class="text-uppercase fw-bold">62%</span>
+                                    </div>
+                                    <div class="body-content">
+                                        <button type="button" class="collapsible rounded-pill">Detail</button>
+                                    </div>
+                                    <!-- <div class="isi">
+                                        <div class="canvas-wrap">
+                                        </div>
+                                    </div> -->
+                                </div>
+                                <div class="content-wrapper--matter">
+                                    <div class="body-content">
+                                        <span class="text-uppercase fw-bold">Partner 2</span>
+                                    </div>
+                                    <div style="padding: 0;" class="body-content">
+                                        <div class="d-flex align-items-center">
+                                            <div style="font-size: 12px; font-weight: 700;margin-right: 6px;" class="text-uppercase txt-blueprimary">YTD</div>
+                                            <div style="background-color: transparent;border-radius: 0;height: 0.9rem;" class="progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="75">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">586</div>
+                                                <i style="transform:translate(1px) rotate(45deg) scale(.9);" class="fas fa-arrow-alt-circle-right down-red"></i>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <span style="font-size: 12px; font-weight: 400" class="text-uppercase">2020</span>
+                                            <div style="background-color: transparent;border-radius: 0;height: 0.9rem;" class="ms-1 progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 100%; background-color: grey" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">650</div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <span style="font-size: 12px; font-weight: 400" class="text-uppercase">2019</span>
+                                            <div style="background-color: transparent;border-radius: 0;height: 0.9rem;" class="ms-1 progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 60%; background-color: lightgrey" aria-valuenow="60" aria-valuemin="0" aria-valuemax="60">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">468</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="body-content">
+                                        <span class="text-uppercase fw-bold">98%</span>
+                                    </div>
+                                    <div class="body-content">
+                                        <i style="transform:translate(1px,-4px) rotate(-45deg) scale(.8);" class="fas fa-arrow-alt-circle-right up-green"></i>
+                                        <span class="text-uppercase fw-bold">87%</span>
+                                    </div>
+                                    <div class="body-content">
+                                        <button type="button" class="collapsible rounded-pill">Detail</button>
+                                    </div>
+                                    <!-- <div class="isi">
+                                        <div class="canvas-wrap">
+                                        </div>
+                                    </div> -->
+                                </div>
+                                <div class="content-wrapper--matter">
+                                    <div class="body-content">
+                                        <span class="text-uppercase fw-bold">Partner 3</span>
+                                    </div>
+                                    <div style="padding: 0;" class="body-content">
+                                        <div class="d-flex align-items-center">
+                                            <div style="font-size: 12px; font-weight: 700;margin-right: 6px;" class="text-uppercase txt-blueprimary">YTD</div>
+                                            <div style="background-color: transparent;border-radius: 0;height: 0.9rem;" class="progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="75">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">586</div>
+                                                <i style="transform:translate(1px) rotate(45deg) scale(.9);" class="fas fa-arrow-alt-circle-right down-red"></i>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <span style="font-size: 12px; font-weight: 400" class="text-uppercase">2020</span>
+                                            <div style="background-color: transparent;border-radius: 0;height: 0.9rem;" class="ms-1 progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 100%; background-color: grey" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">650</div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <span style="font-size: 12px; font-weight: 400" class="text-uppercase">2019</span>
+                                            <div style="background-color: transparent;border-radius: 0;height: 0.9rem;" class="ms-1 progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 60%; background-color: lightgrey" aria-valuenow="60" aria-valuemin="0" aria-valuemax="60">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">468</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="body-content">
+                                        <span class="text-uppercase fw-bold">84%</span>
+                                    </div>
+                                    <div class="body-content">
+                                        <i style="transform:translate(1px,-4px) rotate(-45deg) scale(.8);" class="fas fa-arrow-alt-circle-right up-green"></i>
+                                        <span class="text-uppercase fw-bold">90%</span>
+                                    </div>
+                                    <div class="body-content">
+                                        <button type="button" class="collapsible rounded-pill">Detail</button>
+                                    </div>
+                                    <!-- <div class="isi">
+                                        <div class="canvas-wrap">
+                                        </div>
+                                    </div> -->
+                                </div>
+                                <div class="content-wrapper--matter">
+                                    <div class="body-content">
+                                        <span class="text-uppercase fw-bold">Partner 4</span>
+                                    </div>
+                                    <div style="padding: 0;" class="body-content">
+                                        <div class="d-flex align-items-center">
+                                            <div style="font-size: 12px; font-weight: 700;margin-right: 6px;" class="text-uppercase txt-blueprimary">YTD</div>
+                                            <div style="background-color: transparent;border-radius: 0;height: 0.9rem;" class="progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="75">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">586</div>
+                                                <i style="transform:translate(1px) rotate(45deg) scale(.9);" class="fas fa-arrow-alt-circle-right down-red"></i>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <span style="font-size: 12px; font-weight: 400" class="text-uppercase">2020</span>
+                                            <div style="background-color: transparent;border-radius: 0;height: 0.9rem;" class="ms-1 progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 100%; background-color: grey" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">650</div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <span style="font-size: 12px; font-weight: 400" class="text-uppercase">2019</span>
+                                            <div style="background-color: transparent;border-radius: 0;height: 0.9rem;" class="ms-1 progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 60%; background-color: lightgrey" aria-valuenow="60" aria-valuemin="0" aria-valuemax="60">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">468</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="body-content">
+                                        <span class="text-uppercase fw-bold">65%</span>
+                                    </div>
+                                    <div class="body-content">
+                                        <i style="transform:translate(1px,-4px) rotate(-45deg) scale(.8);" class="fas fa-arrow-alt-circle-right up-green"></i>
+                                        <span class="text-uppercase fw-bold">107%</span>
+                                    </div>
+                                    <div class="body-content">
+                                        <button type="button" class="collapsible rounded-pill">Detail</button>
+                                    </div>
+                                    <!-- <div class="isi">
+                                        <div class="canvas-wrap">
+                                        </div>
+                                    </div> -->
+                                </div>
+                                <div class="content-wrapper--matter">
+                                    <div class="body-content">
+                                        <span class="text-uppercase fw-bold">Partner 5</span>
+                                    </div>
+                                    <div style="padding: 0;" class="body-content">
+                                        <div class="d-flex align-items-center">
+                                            <div style="font-size: 12px; font-weight: 700;margin-right: 6px;" class="text-uppercase txt-blueprimary">YTD</div>
+                                            <div style="background-color: transparent;border-radius: 0;height: 0.9rem;" class="progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="75">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">586</div>
+                                                <i style="transform:translate(1px) rotate(45deg) scale(.9);" class="fas fa-arrow-alt-circle-right down-red"></i>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <span style="font-size: 12px; font-weight: 400" class="text-uppercase">2020</span>
+                                            <div style="background-color: transparent;border-radius: 0;height: 0.9rem;" class="ms-1 progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 100%; background-color: grey" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">650</div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <span style="font-size: 12px; font-weight: 400" class="text-uppercase">2019</span>
+                                            <div style="background-color: transparent;border-radius: 0;height: 0.9rem;" class="ms-1 progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 60%; background-color: lightgrey" aria-valuenow="60" aria-valuemin="0" aria-valuemax="60">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">468</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="body-content">
+                                        <span class="text-uppercase fw-bold">94%</span>
+                                    </div>
+                                    <div class="body-content">
+                                        <i style="transform:translate(1px,-4px) rotate(-45deg) scale(.8);" class="fas fa-arrow-alt-circle-right up-green"></i>
+                                        <span class="text-uppercase fw-bold">68%</span>
+                                    </div>
+                                    <div class="body-content">
+                                        <button type="button" class="collapsible rounded-pill">Detail</button>
+                                    </div>
+                                    <!-- <div class="isi">
+                                        <div class="canvas-wrap">
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="matterPricing-heading">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#matterOpen-collapsePricing" aria-expanded="false" aria-controls="matterOpen-collapsePricing">
+                                <h4
+                                    class="text-uppercase fw-normal txt-blueprimary">
+                                    <span
+                                        style="font-weight: 600">PRICING
+                                        TYPE</span>
+                                    MATTER OPENED
+                                </h4>
+                            </button>
+                </h2>
+                <div id="matterOpen-collapsePricing" class="accordion-collapse collapse" aria-labelledby="matterPricing-heading" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="container mt-3 p-0 mx-auto">
+                            <div class="table-summary">
+                                <div class="header-inner--matter bg-grey">
+                                    <div class="header-content">
+                                        employee name
+                                    </div>
+                                    <div class="header-content">
+                                        matters
+                                    </div>
+                                    <div class="header-content">
+                                        composition 2021
+                                    </div>
+                                    <div class="header-content">
+                                        growth 19-21
+                                    </div>
+                                    <div class="header-content">
+                                        action
+                                    </div>
+                                </div>
+                                <!-- looping di -> content-wrapper -->
+                                <div class="content-wrapper--matter">
+                                    <div class="body-content">
+                                        <span class="text-uppercase fw-bold">PG Overview</span>
+                                    </div>
+                                    <div style="padding: 0;" class="body-content">
+                                        <div class="d-flex align-items-center">
+                                            <div style="font-size: 12px; font-weight: 700;margin-right: 6px;" class="text-uppercase txt-blueprimary">YTD</div>
+                                            <div style="background-color: transparent;border-radius: 0;height: 0.9rem;" class="progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="75">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">586</div>
+                                                <i style="transform:translate(1px) rotate(45deg) scale(.9);" class="fas fa-arrow-alt-circle-right down-red"></i>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <span style="font-size: 12px; font-weight: 400" class="text-uppercase">2020</span>
+                                            <div style="background-color: transparent;border-radius: 0;height: 0.9rem;" class="ms-1 progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 100%; background-color: grey" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">650</div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <span style="font-size: 12px; font-weight: 400" class="text-uppercase">2019</span>
+                                            <div style="background-color: transparent;border-radius: 0;height: 0.9rem;" class="ms-1 progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 60%; background-color: lightgrey" aria-valuenow="60" aria-valuemin="0" aria-valuemax="60">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">468</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="body-content">
+                                        <span class="text-uppercase fw-bold">76%</span>
+                                    </div>
+                                    <div class="body-content">
+                                        <i style="transform:translate(1px,-4px) rotate(-45deg) scale(.8);" class="fas fa-arrow-alt-circle-right up-green"></i>
+                                        <span class="text-uppercase fw-bold">62%</span>
+                                    </div>
+                                    <div class="body-content">
+                                        <button type="button" class="collapsible rounded-pill">Detail</button>
+                                    </div>
+                                    <!-- <div class="isi">
+                                        <div class="canvas-wrap">
+                                        </div>
+                                    </div> -->
+                                </div>
+                                <div class="content-wrapper--matter">
+                                    <div class="body-content">
+                                        <span class="text-uppercase fw-bold">CAP</span>
+                                    </div>
+                                    <div style="padding: 0;" class="body-content">
+                                        <div class="d-flex align-items-center">
+                                            <div style="font-size: 12px; font-weight: 700;margin-right: 6px;" class="text-uppercase txt-blueprimary">YTD</div>
+                                            <div style="background-color: transparent;border-radius: 0;height: 0.9rem;" class="progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="75">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">586</div>
+                                                <i style="transform:translate(4px) rotate(-45deg) scale(.9);" class="fas fa-arrow-alt-circle-right up-green"></i>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <span style="font-size: 12px; font-weight: 400" class="text-uppercase">2020</span>
+                                            <div style="background-color: transparent;border-radius: 0;height: 0.9rem;" class="ms-1 progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 100%; background-color: grey" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">650</div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <span style="font-size: 12px; font-weight: 400" class="text-uppercase">2019</span>
+                                            <div style="background-color: transparent;border-radius: 0;height: 0.9rem;" class="ms-1 progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 60%; background-color: lightgrey" aria-valuenow="60" aria-valuemin="0" aria-valuemax="60">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">468</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="body-content">
+                                        <span class="text-uppercase fw-bold">98%</span>
+                                    </div>
+                                    <div class="body-content">
+                                        <i style="transform:translate(1px,-4px) rotate(-45deg) scale(.8);" class="fas fa-arrow-alt-circle-right up-green"></i>
+                                        <span class="text-uppercase fw-bold">87%</span>
+                                    </div>
+                                    <div class="body-content">
+                                        <button type="button" class="collapsible rounded-pill">Detail</button>
+                                    </div>
+                                    <!-- <div class="isi">
+                                        <div class="canvas-wrap">
+                                        </div>
+                                    </div> -->
+                                </div>
+                                <div class="content-wrapper--matter">
+                                    <div class="body-content">
+                                        <span class="text-uppercase fw-bold">Hourly</span>
+                                    </div>
+                                    <div style="padding: 0;" class="body-content">
+                                        <div class="d-flex align-items-center">
+                                            <div style="font-size: 12px; font-weight: 700;margin-right: 6px;" class="text-uppercase txt-blueprimary">YTD</div>
+                                            <div style="background-color: transparent;border-radius: 0;height: 0.9rem;" class="progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="75">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">586</div>
+                                                <i style="transform:translate(1px) rotate(45deg) scale(.9);" class="fas fa-arrow-alt-circle-right down-red"></i>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <span style="font-size: 12px; font-weight: 400" class="text-uppercase">2020</span>
+                                            <div style="background-color: transparent;border-radius: 0;height: 0.9rem;" class="ms-1 progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 100%; background-color: grey" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">650</div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <span style="font-size: 12px; font-weight: 400" class="text-uppercase">2019</span>
+                                            <div style="background-color: transparent;border-radius: 0;height: 0.9rem;" class="ms-1 progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 60%; background-color: lightgrey" aria-valuenow="60" aria-valuemin="0" aria-valuemax="60">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">468</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="body-content">
+                                        <span class="text-uppercase fw-bold">84%</span>
+                                    </div>
+                                    <div class="body-content">
+                                        <i style="transform:translate(1px,-4px) rotate(-45deg) scale(.8);" class="fas fa-arrow-alt-circle-right up-green"></i>
+                                        <span class="text-uppercase fw-bold">90%</span>
+                                    </div>
+                                    <div class="body-content">
+                                        <button type="button" class="collapsible rounded-pill">Detail</button>
+                                    </div>
+                                    <!-- <div class="isi">
+                                        <div class="canvas-wrap">
+                                        </div>
+                                    </div> -->
+                                </div>
+                                <div class="content-wrapper--matter">
+                                    <div class="body-content">
+                                        <span class="text-uppercase fw-bold">Lumpsum</span>
+                                    </div>
+                                    <div style="padding: 0;" class="body-content">
+                                        <div class="d-flex align-items-center">
+                                            <div style="font-size: 12px; font-weight: 700;margin-right: 6px;" class="text-uppercase txt-blueprimary">YTD</div>
+                                            <div style="background-color: transparent;border-radius: 0;height: 0.9rem;" class="progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="75">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">586</div>
+                                                <i style="transform:translate(4px) rotate(-45deg) scale(.9);" class="fas fa-arrow-alt-circle-right up-green"></i>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <span style="font-size: 12px; font-weight: 400" class="text-uppercase">2020</span>
+                                            <div style="background-color: transparent;border-radius: 0;height: 0.9rem;" class="ms-1 progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 100%; background-color: grey" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">650</div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <span style="font-size: 12px; font-weight: 400" class="text-uppercase">2019</span>
+                                            <div style="background-color: transparent;border-radius: 0;height: 0.9rem;" class="ms-1 progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 60%; background-color: lightgrey" aria-valuenow="60" aria-valuemin="0" aria-valuemax="60">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">468</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="body-content">
+                                        <span class="text-uppercase fw-bold">65%</span>
+                                    </div>
+                                    <div class="body-content">
+                                        <i style="transform:translate(1px,-4px) rotate(-45deg) scale(.8);" class="fas fa-arrow-alt-circle-right up-green"></i>
+                                        <span class="text-uppercase fw-bold">107%</span>
+                                    </div>
+                                    <div class="body-content">
+                                        <button type="button" class="collapsible rounded-pill">Detail</button>
+                                    </div>
+                                    <!--  <div class="isi">
+                                        <div class="canvas-wrap">
+                                        </div>
+                                    </div> -->
+                                </div>
+                                <div class="content-wrapper--matter">
+                                    <div class="body-content">
+                                        <span class="text-uppercase fw-bold">Retainer</span>
+                                    </div>
+                                    <div style="padding: 0;" class="body-content">
+                                        <div class="d-flex align-items-center">
+                                            <div style="font-size: 12px; font-weight: 700;margin-right: 6px;" class="text-uppercase txt-blueprimary">YTD</div>
+                                            <div style="background-color: transparent;border-radius: 0;height: 0.9rem;" class="progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="75">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">586</div>
+                                                <i style="transform:translate(1px) rotate(45deg) scale(.9);" class="fas fa-arrow-alt-circle-right down-red"></i>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <span style="font-size: 12px; font-weight: 400" class="text-uppercase">2020</span>
+                                            <div style="background-color: transparent;border-radius: 0;height: 0.9rem;" class="ms-1 progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 100%; background-color: grey" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">650</div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <span style="font-size: 12px; font-weight: 400" class="text-uppercase">2019</span>
+                                            <div style="background-color: transparent;border-radius: 0;height: 0.9rem;" class="ms-1 progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 60%; background-color: lightgrey" aria-valuenow="60" aria-valuemin="0" aria-valuemax="60">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">468</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="body-content">
+                                        <span class="text-uppercase fw-bold">94%</span>
+                                    </div>
+                                    <div class="body-content">
+                                        <i style="transform:translate(1px,-4px) rotate(-45deg) scale(.8);" class="fas fa-arrow-alt-circle-right up-green"></i>
+                                        <span class="text-uppercase fw-bold">68%</span>
+                                    </div>
+                                    <div class="body-content">
+                                        <button type="button" class="collapsible rounded-pill">Detail</button>
+                                    </div>
+                                    <!-- <div class="isi">
+                                        <div class="canvas-wrap">
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="matterStatus-heading">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#matterOpen-collapseStatus" aria-expanded="false" aria-controls="matterOpen-collapseStatus">
+                                <h4
+                                    class="text-uppercase fw-normal txt-blueprimary">
+                                    <span style="font-weight: 600">status </span>matter opened
+                                </h4>
+                            </button>
+                </h2>
+                <div id="matterOpen-collapseStatus" class="accordion-collapse collapse" aria-labelledby="matterStatus-heading" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="container mt-3 p-0 mx-auto">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/bootstrap.bundle.min.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="script.js"></script>
+    <script src="productivity.js"></script>
+    <script src="matter.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="assets/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- ng-if="productivity" -->
+
+    <!-- closed accordion -->
+
+    <div class="
+        container
+        mt-4
+        mb-2
+        p-0
+        pb-3
+        d-flex
+        justify-content-between
+        container-border
+      ">
+        <!-- ng-if ="mp-dashboard" -->
+        <h2 class="text-uppercase fw-bold txt-blueprimary">
+            firm summary - Financial
+        </h2>
+        <!-- ng-if="ep-dashboard" -->
+        <!-- <h2 class="text-uppercase fw-bold txt-blueprimary">pg banking & finance summary</h2> -->
+        <button class="btn btn-dashboard w-25 fw-bold">
+            Day 120 of 224 efective days
+            <i class="fas fa-angle-right" style="transform: translate(30px,2px);
+        color: white;
+        font-weight: 400;" "></i>
+      </button>
+    </div>
+    <div class=" container">
+        <div class="accordion" id="accordionPanelsFinance">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="financeRevenue-heading">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#financeOpen-collapseRevenue" aria-expanded="true" aria-controls="financeOpen-collapseRevenue">
+                                <h4
+                                    class="text-uppercase fw-normal txt-blueprimary">
+                                    <span style="font-weight: 600;color:orange">REVENUE</span> </h4>
+                            </button>
+                </h2>
+                <div id="financeOpen-collapseRevenue" class="accordion-collapse collapse show" aria-labelledby="financeRevenue-heading">
+                    <div style="padding:0 !important;" class="accordion-body">
+
+                        <div style="border-bottom: none;" class=" container mx-auto mt-3 mb-2 p-0 pt-4 pb-4 container-border d-flex justify-content-between">
+                            <div style="margin-right: 10px;" class="card">
+                                <div style="padding:0;position: relative;" class="card-header">
+                                    <h5 style="position: absolute;top:-24px;padding-left: 1rem;">PG MATTER</h5>
+                                    <div style="margin:0;" class="alert alert-pink alert-dismissible fade show" role="alert">
+                                        <strong>Key Focus :</strong> Improve Revenue, R1, R2 Total, R2 Confirmed/Soon, R2 Difficult, R3 (WIP to BILL)
+                                    </div>
+                                </div>
+                                <div class="card-body p-0">
+                                    <div style="border-bottom: none;" class="container mx-auto mt-3 mb-0 p-0 pt-0 pb-0 container-border d-flex justify-content-between">
+                                        <div class="ChartFinance-revenueYtd"></div>
+                                        <div class="ChartFinance-revenuePermonth"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div style="padding:0;position: relative;" class="card-header">
+                                    <h5 style="position: absolute;top:-24px;padding-left: 1rem;">PG PIC</h5>
+                                    <div style="margin:0;" class="alert alert-pink alert-dismissible fade show" role="alert">
+                                        <strong>Key Focus :</strong> Improve Revenue, R1, R2 Total, R2 Confirmed/Soon, R2 Difficult, R3 (WIP to BILL)
+                                    </div>
+                                </div>
+                                <div class="card-body p-0">
+                                    <div style="border-bottom: none;" class="container mx-auto mt-3 mb-0 p-0 pt-0 pb-0 container-border d-flex justify-content-between">
+                                        <div class="ChartFinance-revenueYtd"></div>
+                                        <div class="ChartFinance-revenuePermonth"></div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="financeR1-heading">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#financeOpen-collapseR1" aria-expanded="false" aria-controls="financeOpen-collapseR1">
+                                <h4
+                                    class="text-uppercase fw-normal txt-orange">
+                                    <span style="font-weight: 600">R1 (Collection) </span>
+                                </h4>
+                            </button>
+                </h2>
+                <div id="financeOpen-collapseR1" class="accordion-collapse collapse" aria-labelledby="financeR1-heading">
+                    <div style="padding:0;" class="accordion-body">
+                        <div style="border-bottom: none;" class=" container mx-auto mt-3 mb-2 p-0 pt-4 pb-4 container-border d-flex justify-content-between">
+                            <div style="margin-right: 10px;position: relative;" class="card">
+                                <h5 style="position: absolute;top:-24px;padding-left: 1rem;">PG MATTER</h5>
+                                <div style="padding:0;" class="card-header">
+                                    <div style="margin:0;" class="alert alert-pink alert-dismissible fade show" role="alert">
+                                        <strong>Key Focus :</strong> Improve Revenue, R1, R2 Total, R2 Confirmed/Soon, R2 Difficult, R3 (WIP to BILL)
+                                    </div>
+                                </div>
+                                <div class="card-body p-0">
+                                    <div style="border-bottom: none;" class="container mx-auto mt-3 mb-0 p-0 pt-0 pb-0 container-border d-flex justify-content-between">
+                                        <div class="ChartFinance-rOneYtd"></div>
+                                        <div class="ChartFinance-rOnePermonth"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div style="padding:0;position: relative;" class="card-header">
+                                    <h5 style="position: absolute;top:-24px;padding-left: 1rem;">PG PIC</h5>
+                                    <div style="margin:0;" class="alert alert-pink alert-dismissible fade show" role="alert">
+                                        <strong>Key Focus :</strong> Improve Revenue, R1, R2 Total, R2 Confirmed/Soon, R2 Difficult, R3 (WIP to BILL)
+                                    </div>
+                                </div>
+                                <div class="card-body p-0">
+                                    <div style="border-bottom: none;" class="container mx-auto mt-3 mb-0 p-0 pt-0 pb-0 container-border d-flex justify-content-between">
+                                        <div class="ChartFinance-rOneYtd"></div>
+                                        <div class="ChartFinance-rOnePermonth"></div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="financePic-heading">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#financeOpen-collapsePic" aria-expanded="false" aria-controls="financeOpen-collapsePic">
+                                <h4
+                                    class="text-uppercase fw-normal txt-blueprimary">
+                                    <span
+                                        style="font-weight: 600">FINANCIAL PERFORMANCE - </span> RESULT PER PIC
+                                </h4>
+                            </button>
+                </h2>
+                <div id="financeOpen-collapsePic" class="accordion-collapse collapse" aria-labelledby="financePic-heading">
+                    <div class="accordion-body">
+                        <div class="container mt-3 p-0 mx-auto">
+                            <div class="table-summary">
+                                <div class="header-inner--finance bg-grey">
+                                    <div class="header-content">
+                                        partner name
+                                    </div>
+                                    <div class="header-content">
+                                        revenue
+                                    </div>
+                                    <div class="header-content">
+                                        achieved
+                                    </div>
+                                    <div class="header-content">
+                                        r1 (collection)
+                                    </div>
+                                    <div class="header-content">
+                                        achieved
+                                    </div>
+                                    <div class="header-content">
+                                        action
+                                    </div>
+                                </div>
+                                <!-- looping di -> content-wrapper -->
+                                <div class="header-inner--finance">
+                                    <div class="body-content">
+                                        <span class="text-uppercase fw-bold">Partner 1</span>
+                                    </div>
+                                    <div class="body-content">
+                                        <div class="d-flex align-items-center mb-1">
+                                            <div style="font-size: 10px;font-weight:600;width: 35%;" class="text-uppercase txt-blueprimary">TARGET ANNUAL</div>
+                                            <div style="background-color: transparent;border-radius: 0;width: 65%;" class="progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 75%;background-color: #e8e8e8;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="75">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">586</div>
+                                                <i style="transform:translate(1px) rotate(45deg) scale(.9);" class="fas fa-arrow-alt-circle-right down-red"></i>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center mb-1">
+                                            <span style="font-size: 10px;font-weight:600;width: 35%;" class="text-uppercase">TARGET YTD</span>
+                                            <div style="background-color: transparent;border-radius: 0;" class="ms-1 progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 100%; background-color: darkblue" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">650</div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center mb-1">
+                                            <span style="font-size: 10px;font-weight:600;width: 35%;" class="text-uppercase">ACTUAL YTD</span>
+                                            <div style="background-color: transparent;border-radius: 0;" class="ms-1 progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 60%; background-color: #a2d097" aria-valuenow="60" aria-valuemin="0" aria-valuemax="60">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">468</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="body-content">
+                                        <i style="transform:translate(1px,-4px) rotate(-45deg) scale(.8);" class="fas fa-arrow-alt-circle-right up-green"></i>
+                                        <span class="text-uppercase fw-bold">76%</span>
+                                    </div>
+                                    <div class="body-content">
+                                        <div class="d-flex align-items-center mb-1">
+                                            <div style="font-size: 10px;font-weight:600;width: 35%;" class="text-uppercase txt-blueprimary">TARGET ANNUAL</div>
+                                            <div style="background-color: transparent;border-radius: 0;width: 65%;" class="progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 75%;background-color: #e8e8e8;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="75">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">586</div>
+                                                <i style="transform:translate(1px) rotate(45deg) scale(.9);" class="fas fa-arrow-alt-circle-right down-red"></i>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center mb-1">
+                                            <span style="font-size: 10px;font-weight:600;width: 35%;" class="text-uppercase">TARGET YTD</span>
+                                            <div style="background-color: transparent;border-radius: 0;" class="ms-1 progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 100%; background-color: darkblue" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">650</div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center mb-1">
+                                            <span style="font-size: 10px;font-weight:600;width: 35%;" class="text-uppercase">ACTUAL YTD</span>
+                                            <div style="background-color: transparent;border-radius: 0;" class="ms-1 progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 60%; background-color: #a2d097" aria-valuenow="60" aria-valuemin="0" aria-valuemax="60">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">468</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="body-content">
+                                        <i style="transform:translate(1px,-4px) rotate(-45deg) scale(.8);" class="fas fa-arrow-alt-circle-right up-green"></i>
+                                        <span class="text-uppercase fw-bold">62%</span>
+                                    </div>
+                                    <div class="body-content">
+                                        <button type="button" class="collapsible rounded-pill">Detail</button>
+                                    </div>
+                                    <!-- <div class="isi">
+                                        <div class="canvas-wrap">
+                                        </div>
+                                    </div> -->
+                                </div>
+                                <div class="header-inner--finance">
+                                    <div class="body-content">
+                                        <span class="text-uppercase fw-bold">Partner 1</span>
+                                    </div>
+                                    <div class="body-content">
+                                        <div class="d-flex align-items-center mb-1">
+                                            <div style="font-size: 10px;font-weight:600;width: 35%;" class="text-uppercase txt-blueprimary">TARGET ANNUAL</div>
+                                            <div style="background-color: transparent;border-radius: 0;width: 65%;" class="progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 75%;background-color: #e8e8e8;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="75">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">586</div>
+                                                <i style="transform:translate(1px) rotate(45deg) scale(.9);" class="fas fa-arrow-alt-circle-right down-red"></i>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center mb-1">
+                                            <span style="font-size: 10px;font-weight:600;width: 35%;" class="text-uppercase">TARGET YTD</span>
+                                            <div style="background-color: transparent;border-radius: 0;" class="ms-1 progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 100%; background-color: darkblue" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">650</div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center mb-1">
+                                            <span style="font-size: 10px;font-weight:600;width: 35%;" class="text-uppercase">ACTUAL YTD</span>
+                                            <div style="background-color: transparent;border-radius: 0;" class="ms-1 progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 60%; background-color: #a2d097" aria-valuenow="60" aria-valuemin="0" aria-valuemax="60">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">468</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="body-content">
+                                        <i style="transform:translate(1px,-4px) rotate(-45deg) scale(.8);" class="fas fa-arrow-alt-circle-right up-green"></i>
+                                        <span class="text-uppercase fw-bold">76%</span>
+                                    </div>
+                                    <div class="body-content">
+                                        <div class="d-flex align-items-center mb-1">
+                                            <div style="font-size: 10px;font-weight:600;width: 35%;" class="text-uppercase txt-blueprimary">TARGET ANNUAL</div>
+                                            <div style="background-color: transparent;border-radius: 0;width: 65%;" class="progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 75%;background-color: #e8e8e8;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="75">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">586</div>
+                                                <i style="transform:translate(1px) rotate(45deg) scale(.9);" class="fas fa-arrow-alt-circle-right down-red"></i>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center mb-1">
+                                            <span style="font-size: 10px;font-weight:600;width: 35%;" class="text-uppercase">TARGET YTD</span>
+                                            <div style="background-color: transparent;border-radius: 0;" class="ms-1 progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 100%; background-color: darkblue" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">650</div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center mb-1">
+                                            <span style="font-size: 10px;font-weight:600;width: 35%;" class="text-uppercase">ACTUAL YTD</span>
+                                            <div style="background-color: transparent;border-radius: 0;" class="ms-1 progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 60%; background-color: #a2d097" aria-valuenow="60" aria-valuemin="0" aria-valuemax="60">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">468</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="body-content">
+                                        <i style="transform:translate(1px,-4px) rotate(-45deg) scale(.8);" class="fas fa-arrow-alt-circle-right up-green"></i>
+                                        <span class="text-uppercase fw-bold">62%</span>
+                                    </div>
+                                    <div class="body-content">
+                                        <button type="button" class="collapsible rounded-pill">Detail</button>
+                                    </div>
+                                    <!-- <div class="isi">
+                                        <div class="canvas-wrap">
+                                        </div>
+                                    </div> -->
+                                </div>
+                                <div class="header-inner--finance">
+                                    <div class="body-content">
+                                        <span class="text-uppercase fw-bold">Partner 1</span>
+                                    </div>
+                                    <div class="body-content">
+                                        <div class="d-flex align-items-center mb-1">
+                                            <div style="font-size: 10px;font-weight:600;width: 35%;" class="text-uppercase txt-blueprimary">TARGET ANNUAL</div>
+                                            <div style="background-color: transparent;border-radius: 0;width: 65%;" class="progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 75%;background-color: #e8e8e8;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="75">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">586</div>
+                                                <i style="transform:translate(1px) rotate(45deg) scale(.9);" class="fas fa-arrow-alt-circle-right down-red"></i>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center mb-1">
+                                            <span style="font-size: 10px;font-weight:600;width: 35%;" class="text-uppercase">TARGET YTD</span>
+                                            <div style="background-color: transparent;border-radius: 0;" class="ms-1 progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 100%; background-color: darkblue" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">650</div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center mb-1">
+                                            <span style="font-size: 10px;font-weight:600;width: 35%;" class="text-uppercase">ACTUAL YTD</span>
+                                            <div style="background-color: transparent;border-radius: 0;" class="ms-1 progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 60%; background-color: #a2d097" aria-valuenow="60" aria-valuemin="0" aria-valuemax="60">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">468</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="body-content">
+                                        <i style="transform:translate(1px,-4px) rotate(-45deg) scale(.8);" class="fas fa-arrow-alt-circle-right up-green"></i>
+                                        <span class="text-uppercase fw-bold">76%</span>
+                                    </div>
+                                    <div class="body-content">
+                                        <div class="d-flex align-items-center mb-1">
+                                            <div style="font-size: 10px;font-weight:600;width: 35%;" class="text-uppercase txt-blueprimary">TARGET ANNUAL</div>
+                                            <div style="background-color: transparent;border-radius: 0;width: 65%;" class="progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 75%;background-color: #e8e8e8;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="75">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">586</div>
+                                                <i style="transform:translate(1px) rotate(45deg) scale(.9);" class="fas fa-arrow-alt-circle-right down-red"></i>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center mb-1">
+                                            <span style="font-size: 10px;font-weight:600;width: 35%;" class="text-uppercase">TARGET YTD</span>
+                                            <div style="background-color: transparent;border-radius: 0;" class="ms-1 progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 100%; background-color: darkblue" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">650</div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center mb-1">
+                                            <span style="font-size: 10px;font-weight:600;width: 35%;" class="text-uppercase">ACTUAL YTD</span>
+                                            <div style="background-color: transparent;border-radius: 0;" class="ms-1 progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 60%; background-color: #a2d097" aria-valuenow="60" aria-valuemin="0" aria-valuemax="60">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">468</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="body-content">
+                                        <i style="transform:translate(1px,-4px) rotate(-45deg) scale(.8);" class="fas fa-arrow-alt-circle-right up-green"></i>
+                                        <span class="text-uppercase fw-bold">62%</span>
+                                    </div>
+                                    <div class="body-content">
+                                        <button type="button" class="collapsible rounded-pill">Detail</button>
+                                    </div>
+                                    <!-- <div class="isi">
+                                        <div class="canvas-wrap">
+                                        </div>
+                                    </div> -->
+                                </div>
+                                <div class="header-inner--finance">
+                                    <div class="body-content">
+                                        <span class="text-uppercase fw-bold">Partner 1</span>
+                                    </div>
+                                    <div class="body-content">
+                                        <div class="d-flex align-items-center mb-1">
+                                            <div style="font-size: 10px;font-weight:600;width: 35%;" class="text-uppercase txt-blueprimary">TARGET ANNUAL</div>
+                                            <div style="background-color: transparent;border-radius: 0;width: 65%;" class="progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 75%;background-color: #e8e8e8;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="75">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">586</div>
+                                                <i style="transform:translate(1px) rotate(45deg) scale(.9);" class="fas fa-arrow-alt-circle-right down-red"></i>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center mb-1">
+                                            <span style="font-size: 10px;font-weight:600;width: 35%;" class="text-uppercase">TARGET YTD</span>
+                                            <div style="background-color: transparent;border-radius: 0;" class="ms-1 progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 100%; background-color: darkblue" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">650</div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center mb-1">
+                                            <span style="font-size: 10px;font-weight:600;width: 35%;" class="text-uppercase">ACTUAL YTD</span>
+                                            <div style="background-color: transparent;border-radius: 0;" class="ms-1 progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 60%; background-color: #a2d097" aria-valuenow="60" aria-valuemin="0" aria-valuemax="60">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">468</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="body-content">
+                                        <i style="transform:translate(1px,-4px) rotate(-45deg) scale(.8);" class="fas fa-arrow-alt-circle-right up-green"></i>
+                                        <span class="text-uppercase fw-bold">76%</span>
+                                    </div>
+                                    <div class="body-content">
+                                        <div class="d-flex align-items-center mb-1">
+                                            <div style="font-size: 10px;font-weight:600;width: 35%;" class="text-uppercase txt-blueprimary">TARGET ANNUAL</div>
+                                            <div style="background-color: transparent;border-radius: 0;width: 65%;" class="progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 75%;background-color: #e8e8e8;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="75">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">586</div>
+                                                <i style="transform:translate(1px) rotate(45deg) scale(.9);" class="fas fa-arrow-alt-circle-right down-red"></i>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center mb-1">
+                                            <span style="font-size: 10px;font-weight:600;width: 35%;" class="text-uppercase">TARGET YTD</span>
+                                            <div style="background-color: transparent;border-radius: 0;" class="ms-1 progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 100%; background-color: darkblue" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">650</div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center mb-1">
+                                            <span style="font-size: 10px;font-weight:600;width: 35%;" class="text-uppercase">ACTUAL YTD</span>
+                                            <div style="background-color: transparent;border-radius: 0;" class="ms-1 progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 60%; background-color: #a2d097" aria-valuenow="60" aria-valuemin="0" aria-valuemax="60">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">468</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="body-content">
+                                        <i style="transform:translate(1px,-4px) rotate(-45deg) scale(.8);" class="fas fa-arrow-alt-circle-right up-green"></i>
+                                        <span class="text-uppercase fw-bold">62%</span>
+                                    </div>
+                                    <div class="body-content">
+                                        <button type="button" class="collapsible rounded-pill">Detail</button>
+                                    </div>
+                                    <!-- <div class="isi">
+                                        <div class="canvas-wrap">
+                                        </div>
+                                    </div> -->
+                                </div>
+                                <div class="header-inner--finance">
+                                    <div class="body-content">
+                                        <span class="text-uppercase fw-bold">Partner 1</span>
+                                    </div>
+                                    <div class="body-content">
+                                        <div class="d-flex align-items-center mb-1">
+                                            <div style="font-size: 10px;font-weight:600;width: 35%;" class="text-uppercase txt-blueprimary">TARGET ANNUAL</div>
+                                            <div style="background-color: transparent;border-radius: 0;width: 65%;" class="progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 75%;background-color: #e8e8e8;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="75">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">586</div>
+                                                <i style="transform:translate(1px) rotate(45deg) scale(.9);" class="fas fa-arrow-alt-circle-right down-red"></i>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center mb-1">
+                                            <span style="font-size: 10px;font-weight:600;width: 35%;" class="text-uppercase">TARGET YTD</span>
+                                            <div style="background-color: transparent;border-radius: 0;" class="ms-1 progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 100%; background-color: darkblue" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">650</div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center mb-1">
+                                            <span style="font-size: 10px;font-weight:600;width: 35%;" class="text-uppercase">ACTUAL YTD</span>
+                                            <div style="background-color: transparent;border-radius: 0;" class="ms-1 progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 60%; background-color: #a2d097" aria-valuenow="60" aria-valuemin="0" aria-valuemax="60">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">468</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="body-content">
+                                        <i style="transform:translate(1px,-4px) rotate(-45deg) scale(.8);" class="fas fa-arrow-alt-circle-right up-green"></i>
+                                        <span class="text-uppercase fw-bold">76%</span>
+                                    </div>
+                                    <div class="body-content">
+                                        <div class="d-flex align-items-center mb-1">
+                                            <div style="font-size: 10px;font-weight:600;width: 35%;" class="text-uppercase txt-blueprimary">TARGET ANNUAL</div>
+                                            <div style="background-color: transparent;border-radius: 0;width: 65%;" class="progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 75%;background-color: #e8e8e8;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="75">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">586</div>
+                                                <i style="transform:translate(1px) rotate(45deg) scale(.9);" class="fas fa-arrow-alt-circle-right down-red"></i>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center mb-1">
+                                            <span style="font-size: 10px;font-weight:600;width: 35%;" class="text-uppercase">TARGET YTD</span>
+                                            <div style="background-color: transparent;border-radius: 0;" class="ms-1 progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 100%; background-color: darkblue" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">650</div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center mb-1">
+                                            <span style="font-size: 10px;font-weight:600;width: 35%;" class="text-uppercase">ACTUAL YTD</span>
+                                            <div style="background-color: transparent;border-radius: 0;" class="ms-1 progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 60%; background-color: #a2d097" aria-valuenow="60" aria-valuemin="0" aria-valuemax="60">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">468</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="body-content">
+                                        <i style="transform:translate(1px,-4px) rotate(-45deg) scale(.8);" class="fas fa-arrow-alt-circle-right up-green"></i>
+                                        <span class="text-uppercase fw-bold">62%</span>
+                                    </div>
+                                    <div class="body-content">
+                                        <button type="button" class="collapsible rounded-pill">Detail</button>
+                                    </div>
+                                    <!-- <div class="isi">
+                                        <div class="canvas-wrap">
+                                        </div>
+                                    </div> -->
+                                </div>
+                                <div class="header-inner--finance">
+                                    <div class="body-content">
+                                        <span class="text-uppercase fw-bold">Partner 1</span>
+                                    </div>
+                                    <div class="body-content">
+                                        <div class="d-flex align-items-center mb-1">
+                                            <div style="font-size: 10px;font-weight:600;width: 35%;" class="text-uppercase txt-blueprimary">TARGET ANNUAL</div>
+                                            <div style="background-color: transparent;border-radius: 0;width: 65%;" class="progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 75%;background-color: #e8e8e8;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="75">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">586</div>
+                                                <i style="transform:translate(1px) rotate(45deg) scale(.9);" class="fas fa-arrow-alt-circle-right down-red"></i>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center mb-1">
+                                            <span style="font-size: 10px;font-weight:600;width: 35%;" class="text-uppercase">TARGET YTD</span>
+                                            <div style="background-color: transparent;border-radius: 0;" class="ms-1 progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 100%; background-color: darkblue" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">650</div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center mb-1">
+                                            <span style="font-size: 10px;font-weight:600;width: 35%;" class="text-uppercase">ACTUAL YTD</span>
+                                            <div style="background-color: transparent;border-radius: 0;" class="ms-1 progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 60%; background-color: #a2d097" aria-valuenow="60" aria-valuemin="0" aria-valuemax="60">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">468</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="body-content">
+                                        <i style="transform:translate(1px,-4px) rotate(-45deg) scale(.8);" class="fas fa-arrow-alt-circle-right up-green"></i>
+                                        <span class="text-uppercase fw-bold">76%</span>
+                                    </div>
+                                    <div class="body-content">
+                                        <div class="d-flex align-items-center mb-1">
+                                            <div style="font-size: 10px;font-weight:600;width: 35%;" class="text-uppercase txt-blueprimary">TARGET ANNUAL</div>
+                                            <div style="background-color: transparent;border-radius: 0;width: 65%;" class="progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 75%;background-color: #e8e8e8;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="75">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">586</div>
+                                                <i style="transform:translate(1px) rotate(45deg) scale(.9);" class="fas fa-arrow-alt-circle-right down-red"></i>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center mb-1">
+                                            <span style="font-size: 10px;font-weight:600;width: 35%;" class="text-uppercase">TARGET YTD</span>
+                                            <div style="background-color: transparent;border-radius: 0;" class="ms-1 progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 100%; background-color: darkblue" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">650</div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center mb-1">
+                                            <span style="font-size: 10px;font-weight:600;width: 35%;" class="text-uppercase">ACTUAL YTD</span>
+                                            <div style="background-color: transparent;border-radius: 0;" class="ms-1 progress w-75">
+                                                <div class="me-1 progress-bar" role="progressbar" style="width: 60%; background-color: #a2d097" aria-valuenow="60" aria-valuemin="0" aria-valuemax="60">
+                                                </div>
+                                                <div style="line-height: 0.9rem;font-size: 12px;" class="valueof-progress text-uppercase">468</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="body-content">
+                                        <i style="transform:translate(1px,-4px) rotate(-45deg) scale(.8);" class="fas fa-arrow-alt-circle-right up-green"></i>
+                                        <span class="text-uppercase fw-bold">62%</span>
+                                    </div>
+                                    <div class="body-content">
+                                        <button type="button" class="collapsible rounded-pill">Detail</button>
+                                    </div>
+                                    <!-- <div class="isi">
+                                        <div class="canvas-wrap">
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="financeR2-heading">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#financeOpen-collapseR2" aria-expanded="false" aria-controls="financeOpen-collapseR2">
+                        <h4 class="text-uppercase fw-normal txt-blueprimary">
+                            <span style="font-weight: 600">FINANCIAL PERFORMANCE - </span> PROCESS R2
+                        </h4>
+                    </button>
+                </h2>
+                <div id="financeOpen-collapseR2" class="accordion-collapse collapse" aria-labelledby="financeR2-heading" data-bs-parent="#accordionExample">
+                    <div class="accordion-body px-0 py-2">
+                        <div style="border-bottom: none;" class=" container mx-auto mt-0 mb-4 py-2 container-border d-flex justify-content-between align-items-center">
+                            <div style="border-bottom: none;" class="container mx-auto mt-0 mb-0 p-0 pt-0 pb-0 container-border d-flex justify-content-between ">
+                                <div class="d-flex">
+                                    <div>
+                                        <h5><strong>R2 (BILLED) </strong></h5>
+                                        <p class="my-0">Very low (45%) achievement;</p>
+                                        <p class="my-0">vs Firm 76%</p>
+                                    </div>
+                                    <div style="margin: 0 2rem;" class="ChartFinance-R2YtdBilled"></div>
+                                    <div style="margin-left: 2rem;" class="ChartFinance-R2PerbulanBilled"></div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div style="border-bottom: none;" class=" container mx-auto mt-0 mb-4 py-2 container-border d-flex justify-content-between align-items-center">
+                            <div style="border-bottom: none;" class="container mx-auto mt-0 mb-0 p-0 pt-0 pb-0 container-border d-flex justify-content-between ">
+                                <div class="d-flex">
+                                    <div>
+                                        <h5><strong>CONFIRMED </strong></h5>
+                                        <p class="my-0">Very low (45%) achievement;</p>
+                                        <p class="my-0">vs Firm 76%</p>
+                                    </div>
+                                    <div style="margin:0 2rem;" class="ChartFinance-R2YtdConfirmed"></div>
+                                    <div style="margin-left: 2rem;" class="ChartFinance-R2PerbulanConfirmed"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="border-bottom: none;" class=" container mx-auto mt-0 mb-4 py-2 container-border d-flex justify-content-between align-items-center">
+                            <div style="border-bottom: none;" class="container mx-auto mt-0 mb-0 p-0 pt-0 pb-0 container-border d-flex justify-content-between ">
+                                <div class="d-flex">
+                                    <div>
+                                        <h5><strong>DIFFICULT</strong></h5>
+                                        <p class="my-0">Very low (45%) achievement;</p>
+                                        <p class="my-0">vs Firm 76%</p>
+                                    </div>
+                                    <div style="margin:0 2rem;" class="ChartFinance-R2YtdDifficult"></div>
+                                    <div style="margin-left: 2rem;" class="ChartFinance-R2PerbulanDifficult"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="border-bottom: none;" class=" container mx-auto mt-0 mb-4 py-2 container-border d-flex justify-content-between align-items-center">
+                            <div style="border-bottom: none;" class="container mx-auto mt-0 mb-0 p-0 pt-0 pb-0 container-border d-flex justify-content-between ">
+                                <div class="d-flex">
+                                    <div>
+                                        <h5><strong>In PROCESS</strong></h5>
+                                        <p class="my-0">Very low (45%) achievement;</p>
+                                        <p class="my-0">vs Firm 76%</p>
+                                    </div>
+                                    <div style="margin:0 2rem;" class="ChartFinance-R2YtdOnProcess"></div>
+                                    <div class="d-flex">
+                                        <div style="margin: 0 0 0 1.5rem;padding-top: 1rem;">
+                                            <h5><strong>NON PERFORMING</strong></h5>
+                                            <p class="my-0"><strong>Ideal:</strong> 0 bio IDR (no NPL)</p>
+                                            <p class="my-0"><strong>Actual:</strong> 14.2 bio IDR</p>
+                                        </div>
+                                        <div style="margin-left: 2.5rem;" class="ChartFinance-R2NonPerforming"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="financeR3-heading">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#financeOpen-collapseR3" aria-expanded="false" aria-controls="financeOpen-collapseR3">
+                        <h4
+                            class="text-uppercase fw-normal txt-blueprimary">
+                            <span style="font-weight: 600">FINANCIAL PERFORMANCE - </span> PROCESS R3
+                        </h4>
+                    </button>
+                </h2>
+                <div id="financeOpen-collapseR3" class="accordion-collapse collapse" aria-labelledby="financeR3-heading" data-bs-parent="#accordionExample">
+                    <div class="accordion-body px-0 py-2">
+                        <div style="border-bottom: none;" class=" container mx-auto mt-0 mb-4 py-2 container-border d-flex justify-content-between align-items-center">
+                            <div style="border-bottom: none;" class="container mx-auto mt-0 mb-0 p-0 pt-0 pb-0 container-border d-flex justify-content-between ">
+                                <div class="d-flex">
+                                    <div>
+                                        <h5><strong>R3 (WIP)</strong></h5>
+                                        <p class="my-0">Very low (45%) achievement;</p>
+                                        <p class="my-0">vs Firm 76%</p>
+                                    </div>
+                                    <div style="margin: 0 1rem;" class="ChartFinance-R3YtdWip"></div>
+                                    <div style="margin-left: 1rem;" class="ChartFinance-R3PerbulanWip"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="border-bottom: none;" class=" container mx-auto mt-0 mb-4 py-2 container-border d-flex justify-content-between align-items-center">
+                            <div style="border-bottom: none;" class="container mx-auto mt-0 mb-0 p-0 pt-0 pb-0 container-border d-flex justify-content-between ">
+                                <div class="d-flex">
+                                    <div>
+                                        <h5><strong>YEAR</strong></h5>
+                                        <p class="my-0">There are WIP left from previous year, should be priority:</p>
+                                        <p class="my-0"><strong> < 2019:</strong> 6.4 bio IDR</p>
+                                        <p class="my-0"><strong>2020:</strong> 12.8 bio IDR</p>
+                                    </div>
+                                    <div style="margin-left: 2rem;" class="ChartFinance-R3Year"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="border-bottom: none;" class=" container mx-auto mt-0 mb-4 py-2 container-border d-flex justify-content-between align-items-center">
+                            <div style="border-bottom: none;" class="container mx-auto mt-5 mb-0 p-0 pt-0 pb-0 container-border d-flex justify-content-between ">
+                                <div class="d-flex">
+                                    <div style="margin-right: 1rem;">
+                                        <h5><strong>STATUS</strong></h5>
+                                        <!-- <div class="my-0">
+                                            <div style="display:inline-block;width: 0.7rem;height: 0.7rem;background-color: darkblue;"></div> Ideal 
+                                        </div>
+                                        <div class="my-0">
+                                            <div style="display:inline-block;width: 0.7rem;height: 0.7rem;background-color: #a2d097;"></div> Actual Ytd
+                                        </div> -->
+                                    </div>
+                                    <div style="font-weight: 600;letter-spacing: 2px;    transform: rotate(
+                                        -90deg) translate(97px, 65px);border:none;border-left:1px solid grey !important; " class="headerInColom ">Confirmed</div>
+                                    <div style="margin-top:1rem;" class="ChartFinance-R3StatusConfirmed"></div>
+                                    <div style="font-weight: 600;letter-spacing: 2px; transform: rotate( -90deg) translate(97px, 61px);border:none;border-left:1px solid grey !important; " class="headerInColom ">Difficult</div>
+                                    <div style="margin-top:1rem;" class="ChartFinance-R3StatusDifficult"></div>
+                                    <div style="font-weight: 600;letter-spacing: 2px; transform: rotate( -90deg) translate(97px, 61px);border:none;border-left:1px solid grey !important; " class="headerInColom ">In Process</div>
+                                    <div style="margin-top:1rem;" class="ChartFinance-R3StatusInProcess"></div>
+                                    <div style="margin:0 0 0 1rem;font-weight: 600;letter-spacing: 2px; transform: rotate( -90deg) translate(97px, 70px);border:none;border-left:1px solid grey !important; " class="headerInColom ">Non Performing</div>
+                                    <div style="margin-top:1rem;" class="ChartFinance-R3StatusNonPerform"></div>
+                                    <div style="margin: 1rem 0 1rem 1rem; " class="ChartFinance-R3StatusTotalPerChart"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/bootstrap.bundle.min.js "></script>
+    <script src="https://d3js.org/d3.v5.min.js "></script>
+    <script src="script.js "></script>
+    <script src="productivity.js "></script>
+    <script src="matter.js"></script>
+    <script src="finance.js"></script>
+</body>
+
+</html>
